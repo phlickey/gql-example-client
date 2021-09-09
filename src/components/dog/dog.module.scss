@@ -1,0 +1,21 @@
+.dog {
+  display: grid;
+  grid-template-columns: 1fr;
+  .name {
+    font-weight: bold;
+  }
+
+  .photo {
+    height: 250px;
+    width: 300px;
+    background-size: cover;
+  }
+
+  .likes {
+    display: grid;
+    height: 75px;
+    grid-template-columns: 1fr 50px;
+
+    align-items: center;
+  }
+}

@@ -1,0 +1,13 @@
+.dogList {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 15px;
+  min-width: 40vw;
+
+  .header {
+    font-weight: bold;
+  }
+  .row {
+    cursor: pointer;
+  }
+}
